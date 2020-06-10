@@ -7,9 +7,53 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #333333;
+    height: 52px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    margin-left: 20px;
+    display: flex;
 }
 
 .nav__links {
     color: white;
     text-decoration: none;
+    margin: 10px;
+    line-height: 15px;
+    border-right: 1px solid #ffffff;
+    margin-right: 0px;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+
+.nav__linksl {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    line-height: 15px;
+}
+
+.header__buttons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.header__button {
+    width: 34px;
+    height: 34px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    transition: all 0.2s ease-in;
+}
+
+.header__button:hover {
+    border-radius: 30%;
 }
