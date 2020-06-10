@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.nav__links {
+    color: white;
+    text-decoration: none;
+}
