@@ -62,6 +62,10 @@
             .content {
                 margin-right: 20px;
                 margin-left: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
             }
             
             .logo-block {
@@ -209,12 +213,12 @@
             .section2 {
                 display: flex;
                 width: 100%;
-                height: 690px;
+                height: 700px;
                 flex-direction: column;
                 flex-wrap: wrap;
                 justify-content: start;
                 align-items: start;
-                border-bottom: 2px double #333333;
+                border-bottom: 4px double #333333;
             }
             
             .lorem_ipsum {
@@ -417,4 +421,127 @@
             
             a {
                 text-decoration: none;
+            }
+            
+            .section2_3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+                margin-top: 21px;
+                width: 330px;
+                height: 720px;
+                flex-wrap: wrap;
+            }
+            
+            .section2_3_img {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+                width: 160px;
+                border-top: 4px solid rgba(51, 51, 51, 0.6);
+                margin-right: 15px;
+            }
+            
+            .section2_3_img_text {
+                font-weight: 700;
+                color: #333333;
+                margin-top: 0;
+            }
+            
+            .img160x600px {
+                background-color: #333333;
+                color: white;
+                width: 160px;
+                height: 600px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-weight: 5;
+            }
+            
+            .section2_3_links {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+            }
+            
+            .section2_3_links_block {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+                border-top: 4px solid rgba(51, 51, 51, 0.6);
+                min-width: 165px;
+            }
+            
+            .section2_3_links_block_text {
+                color: #333333;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+            
+            .section2_3_links_block_link {
+                text-decoration: none;
+                color: #993300;
+                margin: 3px;
+                font-size: 14px;
+            }
+            
+            .section3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 4px double #333333;
+            }
+            
+            .section3_block_links {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+                padding: 5px;
+                min-width: 182px;
+                margin-top: 10px;
+                margin-right: 15px;
+                display: block;
+                margin-bottom: 30px;
+            }
+            
+            .section3_block_links_title {
+                font-weight: 600;
+                color: #333333;
+                margin: 0;
+                font-size: 15px;
+                width: 100%;
+                border-bottom: 1px solid rgba(51, 51, 51, 0.6);
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .section3_block_links_link {
+                color: #993300;
+                display: inline-block;
+            }
+            
+            .footer {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                height: 30px;
+                padding: 20px;
+            }
+            
+            .footer_text_text {
+                color: #333333;
+                font-weight: 600;
+            }
+            
+            .footer_link {
+                color: #993300;
             }
